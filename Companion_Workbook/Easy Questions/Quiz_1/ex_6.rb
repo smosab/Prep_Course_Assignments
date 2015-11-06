@@ -1,0 +1,1 @@
+  famous_words.insert(0, "Four score and ")

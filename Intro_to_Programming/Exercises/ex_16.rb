@@ -1,0 +1,1 @@
+ a.map {|word| word.split}.flatten
