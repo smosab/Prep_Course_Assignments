@@ -1,0 +1,1 @@
+  flintstones.delete_if {|x| x != "Barney"}.to_a
