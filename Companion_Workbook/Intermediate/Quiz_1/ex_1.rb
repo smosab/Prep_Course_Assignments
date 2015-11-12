@@ -1,0 +1,1 @@
+  puts "Hello world".concat(10).concat(32).prepend(" ")  * 10
