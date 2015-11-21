@@ -94,6 +94,10 @@
     binding.pry
     puts "d_inner is #{d_inner} with an id of: #{d_inner_id} inside the block (compared to #{d_outer.object_id} for outer).\n\n"
     binding.pry
+    # a_inner is 22 with an id of: 45 inside the block (compared to 45 for outer).
+    # b_inner is thirty three with an id of: 70200805953080 inside the block (compared to 70200805953080 for outer).
+    # c_inner is [44] with an id of: 70200805953060 inside the block (compared to 70200805953060 for outer).
+    # d_inner is 44 with an id of: 89 inside the block (compared to 89 for outer).
   end
 
   puts "a_outer is #{a_outer} with an id of: #{a_outer_id} BEFORE and: #{a_outer.object_id} AFTER the block."
